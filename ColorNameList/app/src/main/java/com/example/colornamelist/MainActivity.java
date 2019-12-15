@@ -10,6 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             R.color.colorPapayaWhip, R.color.colorPeachPuff, R.color.colorPeru, R.color.colorPink};
     private int[] colorNames = {R.string.pale_green, R.string.pale_turquoise, R.string.pale_violet_red,
             R.string.papaya_whip, R.string.peach_puff, R.string.peru, R.string.pink};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,4 +55,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
