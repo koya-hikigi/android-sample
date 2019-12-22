@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LayoutApp</string>
+    <string name="left_str">左</string>
+    <string name="center_str">真ん中</string>
+    <string name="right_str">右</string>
+</resources>
